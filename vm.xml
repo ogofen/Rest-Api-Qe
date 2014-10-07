@@ -1,0 +1,15 @@
+<vm>
+	<name>ppc64</name>
+	<cluster>
+		<name>Default</name>
+	</cluster>
+	<template>
+		<name>Blank</name>
+	</template>
+	<os type='rhel_6_ppc64'>
+		<boot dev='hd'/>
+	</os>
+	<memory_policy>
+		<ballooning>false</ballooning>
+	</memory_policy>
+</vm>
