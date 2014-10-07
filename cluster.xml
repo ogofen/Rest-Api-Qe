@@ -1,0 +1,27 @@
+<cluster>
+    <name>Rest-Api_cluster</name>
+    <description>The Rest-Api server cluster</description>
+    <cpu id="Intel Nehalem Family">
+        <architecture>X86_64</architecture>
+    </cpu>
+    <data_center>
+    <name>Rest-Api_Datacenter</name>
+    </data_center>
+    <memory_policy>
+        <overcommit percent="100"/>
+        <transparent_hugepages>
+            <enabled>true</enabled>
+        </transparent_hugepages>
+    </memory_policy>
+    <virt_service>true</virt_service>
+    <gluster_service>false</gluster_service>
+    <threads_as_cores>false</threads_as_cores>
+    <tunnel_migration>false</tunnel_migration>
+    <trusted_service>false</trusted_service>
+    <ha_reservation>false</ha_reservation>
+    <optional_reason>false</optional_reason>
+    <ballooning_enabled>false</ballooning_enabled>
+    <ksm>
+        <enabled>true</enabled>
+    </ksm>
+</cluster>

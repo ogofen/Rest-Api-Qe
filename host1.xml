@@ -1,0 +1,18 @@
+<host>
+    <name>vdsb_from_Rest</name>
+    <address>10.35.116.2</address>
+    <root_password>qum5net</root_password>
+    <status>
+        <state>up</state>
+    </status>
+    <cluster>
+        <name>Rest-Api_cluster</name>
+    </cluster>
+    <power_management>
+        <enabled>false</enabled>
+    </power_management>
+    <ksm>
+        <enabled>false</enabled>
+    </ksm>
+    <live_snapshot_support>true</live_snapshot_support>
+</host>
