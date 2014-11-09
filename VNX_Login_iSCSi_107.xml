@@ -1,0 +1,6 @@
+<action>
+     <iscsi>
+         <address>10.35.160.107</address>
+         <target>iqn.1992-04.com.emc:cx.ckm00121000438.b7</target>
+     </iscsi>
+</action>

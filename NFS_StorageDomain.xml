@@ -1,0 +1,14 @@
+<storage_domain>
+    <name>nfs_Rest-Api</name>
+    <type>data</type>
+    <master>true</master>
+    <host>
+        <name>vdsb_from_Rest</name>
+    </host>
+    <storage>
+        <address>10.35.160.108</address>
+        <type>nfs</type>
+        <path>/RHEV/ogofen/2</path>
+    </storage>
+    <storage_format>v3</storage_format>
+</storage_domain>

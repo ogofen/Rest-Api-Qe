@@ -1,0 +1,5 @@
+<action>
+   <iscsi>
+         <address>10.35.160.104</address>
+   </iscsi>
+</action>
