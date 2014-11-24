@@ -1,0 +1,23 @@
+<host>
+    <name>vdsc_from_Rest</name>
+    <address>10.35.116.3</address>
+    <root_password>qum5net</root_password>
+    <certificate>
+        <organization>scl.lab.tlv.redhat.com</organization>
+        <subject>O=scl.lab.tlv.redhat.com,CN=10.35.116.2</subject>
+    </certificate>
+    <status>
+        <state>up</state>
+    </status>
+    <cluster>
+        <name>Rest-Api_cluster</name>
+    </cluster>
+    <power_management>
+        <enabled>false</enabled>
+    </power_management>
+    <ksm>
+        <enabled>false</enabled>
+    </ksm>
+    <numa_supported>true</numa_supported>
+    <live_snapshot_support>true</live_snapshot_support>
+</host>

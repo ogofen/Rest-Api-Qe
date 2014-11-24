@@ -1,0 +1,19 @@
+<host>
+    <name>ogofen-2</name>
+    <address>10.35.2.53</address>
+    <root_password>qum5net</root_password>
+    <status>
+        <state>up</state>
+    </status>
+    <cluster>
+        <name>Default</name>
+    </cluster>
+    <power_management>
+        <enabled>false</enabled>
+    </power_management>
+    <ksm>
+        <enabled>false</enabled>
+    </ksm>
+    <numa_supported>true</numa_supported>
+    <live_snapshot_support>true</live_snapshot_support>
+</host>
