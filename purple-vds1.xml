@@ -1,6 +1,6 @@
 <host>
-    <name>rat-2</name>
-    <address>10.35.2.53</address>
+    <name>purple-vds1</name>
+    <address>10.35.102.86</address>
     <root_password>qum5net</root_password>
     <status>
         <state>up</state>
@@ -14,6 +14,4 @@
     <ksm>
         <enabled>false</enabled>
     </ksm>
-    <numa_supported>true</numa_supported>
-    <live_snapshot_support>true</live_snapshot_support>
 </host>
