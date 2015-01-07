@@ -1,0 +1,10 @@
+<disk>
+   <name>vm_1_Disk2</name>
+   <provisioned_size>3221225472</provisioned_size>
+   <interface>virtio</interface>
+   <format>raw</format>
+   <sparse>true</sparse>
+   <storage_domain>
+          <name>NFS_2</name>
+   </storage_domain>
+</disk>

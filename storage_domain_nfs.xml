@@ -1,9 +1,9 @@
+#insecure --header "Content-Type:application/xml" -X POST -d @storage_domain_nfs.xml  --user "admin@internal:qum5net" https://ovirt-gofen-1.scl.lab.tlv.redhat.com/api/storagedomains --verbose
 <storage_domain>
-    <name>nfs_Rest-Api</name>
     <type>data</type>
     <master>true</master>
     <host>
-        <name>vdsb_from_Rest</name>
+        <name>purple-vds1.qa.lab.tlv.redhat.com</name>
     </host>
     <storage>
         <address>10.35.160.108</address>

@@ -1,6 +1,6 @@
 <host>
-    <name>purple-vds1</name>
-    <address>10.35.102.86</address>
+    <name>purple-vds1.qa.lab.tlv.redhat.com</name>
+    <address>purple-vds1.qa.lab.tlv.redhat.com</address>
     <root_password>qum5net</root_password>
     <status>
         <state>up</state>
