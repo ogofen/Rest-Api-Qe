@@ -1,4 +1,3 @@
-#curl --insecure --header "Content-Type:application/xml" -X POST -d @purple-vds3.xml  --user "admin@internal:qum5net" https://ovirt-gofen-1.scl.lab.tlv.redhat.com/api/hosts --verbose
 <host>
     <name>purple-vds3.qa.lab.tlv.redhat.com</name>
     <address>purple-vds3.qa.lab.tlv.redhat.com</address>
