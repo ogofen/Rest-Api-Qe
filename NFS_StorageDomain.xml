@@ -3,7 +3,7 @@
     <type>data</type>
     <master>true</master>
     <host>
-        <name>vdsb_from_Rest</name>
+        <name>purple-vds2.qa.lab.tlv.redhat.com</name>
     </host>
     <storage>
         <address>10.35.160.108</address>

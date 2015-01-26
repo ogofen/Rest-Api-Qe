@@ -1,0 +1,25 @@
+<storage_domain>
+    <name>iSCSi_Rest-Api</name>
+    <type>data</type>
+    <host>
+        <name>purple-vds2.qa.lab.tlv.redhat.com</name>
+    </host>
+    <storage>
+        <type>iscsi</type>
+        <logical_unit>
+            <id>360060160f4a03000fb65675991dbe311</id>
+            <port>3260</port>
+            <target>iqn.1992-04.com.emc:cx.ckm00121000438.a6</target>
+            <portal>10.35.160.104:3260,1</portal>
+            <address>10.35.160.104</address>
+            <serial>SDGC_RAID_5_CKM00121000438</serial>
+            <vendor_id>DGC</vendor_id>
+            <product_id>RAID 5</product_id>
+            <lun_mapping>13</lun_mapping>
+            <size>32212254720</size>
+            <paths>1</paths>
+            <status>free</status>
+        </logical_unit>
+        <storage_format>v3</storage_format>
+    </storage>
+</storage_domain>
