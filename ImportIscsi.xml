@@ -1,0 +1,8 @@
+<storage_domain id="91705d5e-276f-4291-845e-280362530bcd">
+  <import>true</import>
+  <host id="cea4c941-1eb4-44ee-9e8b-e597acac73eb" />
+  <type>data</type>
+  <storage>
+     <type>iscsi</type>
+  </storage>
+</storage_domain>

@@ -1,9 +1,8 @@
 <storage_domain>
-    <name>nfs_Rest-Api</name>
     <type>data</type>
     <master>true</master>
     <host>
-        <name>purple-vds2.qa.lab.tlv.redhat.com</name>
+        <name>adder.tlv.redhat.com</name>
     </host>
     <storage>
         <address>10.35.160.108</address>
